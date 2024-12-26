@@ -1,9 +1,10 @@
 # DLCV Final Project ( Multiple Concept Personalization )
 
-# Usage
+# Clone repository & enter the directory
 To start working on this final project, you should clone this repository into your local machine by the following command:
 
     git clone https://github.com/DLCV-Fall-2024/DLCV-Fall-2024-Final-2-404visionnotfound.git
+    cd DLCV-Fall-2024-Final-2-404visionnotfound
 
 
 
@@ -26,7 +27,7 @@ pip install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 --index-url https
 python -m pip install -r requirements.txt
 bash download_data.sh
 ```
-### Download pretrained models
+### Download pretrained models (At root directory)
 ```bash
 conda install -c conda-forge git-lfs -y
 git lfs install
