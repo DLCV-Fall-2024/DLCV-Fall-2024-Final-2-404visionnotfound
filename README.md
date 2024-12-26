@@ -21,7 +21,7 @@ git-lfs clone https://huggingface.co/windwhinny/chilloutmix.git
 
 # How to train and inference?
 * Training output will be saved in "./experiments/8EDLORA_<TOKEN_NAME>"
-* Inference output will be saved in "./outputs/prompt<INDEX>/inference_results/samples"
+* Inference output will be saved in "./outputs/prompt<PROMPT_INDEX>/inference_results/samples"
 * If you want to inference your training ckpt please replace the ckpt in inf folder with your own ckpt in experiments folder
 ```shell script=
 bash train.sh 
