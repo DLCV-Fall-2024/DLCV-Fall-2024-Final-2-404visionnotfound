@@ -16,6 +16,10 @@ For more details, please click [this link](https://docs.google.com/presentation/
 
 ## Execute
 ### Warning: Your Linux machine must have CUDA version 12.1
+check by following command:
+```shell
+nvcc --version
+```
 ### Create conda environment
 ```shell
 conda create -n ConceptConductor python=3.10 -y
