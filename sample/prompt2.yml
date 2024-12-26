@@ -8,9 +8,9 @@ inputs:
     - "A <dog6> `<dog6_2>, a <dog6> `<dog6_2> and a <dog6> `<dog6_2> near a forest."
   ref_image_path: "sample/ref_image/prompt2/prompt2.png"
   ref_mask_paths:
-    - "sample/ref_image/prompt2/ldog.png"
-    - "sample/ref_image/prompt2/mcat.png"  
-    - "sample/ref_image/prompt2/rdog.png"  
+    - "./sample/ref_image/prompt2/ldog.png"
+    - "./sample/ref_image/prompt2/mcat.png"  
+    - "./sample/ref_image/prompt2/rdog.png"  
   init_mask_from_points: False
   mask_center_points: 
     - [350, 200]
@@ -18,14 +18,14 @@ inputs:
   init_image_path: ~
   init_mask_path: ~       
   edlora_paths:
-    - "inf/8EDLoRA_dog/models/edlora_model-latest.pth"  
-    - "inf/8EDLoRA_pet_cat1/models/edlora_model-latest.pth"
-    - "inf/8EDLoRA_dog6/models/edlora_model-latest.pth"
+    - "./inf/8EDLoRA_dog/models/edlora_model-latest.pth"  
+    - "./inf/8EDLoRA_pet_cat1/models/edlora_model-latest.pth"
+    - "./inf/8EDLoRA_dog6/models/edlora_model-latest.pth"
   load_edlora: True
   lora_alpha: 0.95
 
 outputs:
-  outroot: "outputs/prompt2"
+  outroot: "./outputs/prompt2"
   image_outdir: "inference_results"
   latents_outdir: "inverted_latents"
   self_attn_outdir: "self_attn"
@@ -34,7 +34,7 @@ outputs:
 
 
 base_model:
-  sd_ckpt: "experiments/pretrained_models/chilloutmix"
+  sd_ckpt: "./experiments/pretrained_models/chilloutmix"
   variant: ""
 
 sd_t2i:

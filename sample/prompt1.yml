@@ -7,8 +7,8 @@ inputs:
     - "A <vase_1> `<vase_2> in a <vase_1> `<vase_2>."
   ref_image_path: "sample/ref_image/prompt1/prompt1.png"
   ref_mask_paths:
-    - "sample/ref_image/prompt1/flower.png"
-    - "sample/ref_image/prompt1/vase.png"  
+    - "./sample/ref_image/prompt1/flower.png"
+    - "./sample/ref_image/prompt1/vase.png"  
   init_mask_from_points: False
   mask_center_points: 
     - [350, 200]
@@ -16,13 +16,13 @@ inputs:
   init_image_path: ~
   init_mask_path: ~       
   edlora_paths:
-    - "inf/8EDLoRA_flower_1/models/edlora_model-latest.pth"  
-    - "inf/8EDLoRA_vase/models/edlora_model-latest.pth"
+    - "./inf/8EDLoRA_flower_1/models/edlora_model-latest.pth"  
+    - "./inf/8EDLoRA_vase/models/edlora_model-latest.pth"
   load_edlora: True
   lora_alpha: 0.7
 
 outputs:
-  outroot: "outputs/prompt1"
+  outroot: "./outputs/prompt1"
   image_outdir: "inference_results"
   latents_outdir: "inverted_latents"
   self_attn_outdir: "self_attn"
