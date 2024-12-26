@@ -11,9 +11,10 @@ For more details, please click [this link](https://docs.google.com/presentation/
 
 
 # How to prepare your training and inference?
-* Please create the environment and download the training pretrain model and inference checkpoint
+* Please create the environment and download the pretrained models for training and checkpoints for inference
 
 ## Execute
+### Warning: Your Linux machine must have CUDA version 12.1
 ### Create conda environment
 ```shell
 conda create -n ConceptConductor python=3.10 -y
@@ -40,13 +41,20 @@ cd ..
 cd ..
 ```
 
-# How to train and inference?
+# Train
 * Training output will be saved in "./experiments/8EDLORA_<TOKEN_NAME>"
+* **(Note: All 8 single concept TOKENs will be fine-tuned in a shot.)**
+## Execute training (At root directory)
+```bash
+bash train.sh
+```
+
+# Inference
 * Inference output will be saved in "./outputs/prompt<PROMPT_INDEX>/inference_results/samples"
 * If you want to inference your training ckpt please replace the ckpt in inf folder with your own ckpt in experiments folder
-## Execute training and inference (At root directory)
+* **(Note: All prompt0 ~ prompt3 will be inferenced in a shot.)**
+## Execute inference (At root directory)
 ```shell script=
-bash train.sh
 bash inference.sh
 ```
 
