@@ -1,4 +1,4 @@
-name: 8EDLoRA_uglycorgi
+name: 8EDLoRA_dog6
 manual_seed: 0
 mixed_precision: fp16
 gradient_accumulation_steps: 1
