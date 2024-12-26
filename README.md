@@ -19,7 +19,7 @@ mkdir -p experiments/pretrained_models
 cd experiments/pretrained_models
 git-lfs clone https://huggingface.co/windwhinny/chilloutmix.git
 ```
-# Download our pretrained edlora
+# Download our Dataset and pretrained edlora 
 ```shell script=
 bash download_data.sh
 ```
