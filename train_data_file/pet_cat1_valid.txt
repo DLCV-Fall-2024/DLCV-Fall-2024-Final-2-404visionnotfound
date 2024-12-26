@@ -1,0 +1,7 @@
+<pet_cat1>
+A <pet_cat1>, Ultra HD quality, 4K, 3d render in unreal engine
+photo of a <pet_cat1>
+A <pet_cat1> on the desk
+A <pet_cat1> on a shelf
+A <pet_cat1> near a forest.
+A <pet_cat1> on the left and a cat on the right.

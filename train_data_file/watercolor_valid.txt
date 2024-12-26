@@ -1,0 +1,6 @@
+a cat in <watercolor> 
+a dog in <watercolor> 
+a treasure in <watercolor> 
+a photo in <watercolor> 
+a  <watercolor> selfie
+a  <watercolor> unreal scene

@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<flower_1>",
+        "instance_data_dir": "Data/concept_image/flower_1",
+        "caption_dir": "train_data_file/caption/flower-1",
+        "mask_dir": "Data_mask_sam/flower_1"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<pet_cat1>",
+        "instance_data_dir": "Data/concept_image/pet_cat1",
+        "caption_dir": "train_data_file/caption/pet_cat1",
+        "mask_dir": "Data_mask_sam/pet_cat1"
+    }
+]

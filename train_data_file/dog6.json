@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<dog6>",
+        "instance_data_dir": "Data/concept_image/dog6",
+        "caption_dir": "train_data_file/caption/dog6",
+        "mask_dir": "Data_mask_sam/dog6"
+    }
+]

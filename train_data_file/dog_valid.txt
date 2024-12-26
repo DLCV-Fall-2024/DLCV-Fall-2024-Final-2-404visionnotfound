@@ -1,0 +1,7 @@
+<dog>
+A <dog>, Ultra HD quality, 4K, 3d render in unreal engine
+photo of a <dog>
+A <dog> on the desk
+A <dog> on a shelf
+A <dog> near a forest.
+A <dog> on the left and a cat on the right.

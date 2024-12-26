@@ -1,0 +1,9 @@
+[
+    {
+        "instance_prompt": "<cat2>",
+        "instance_data_dir": "Data/concept_image/cat2",
+        "caption_dir": "train_data_file/caption/cat2",
+        "mask_dir": "Data_mask_sam/cat2"
+    }
+]
+
