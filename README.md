@@ -19,6 +19,10 @@ mkdir -p experiments/pretrained_models
 cd experiments/pretrained_models
 git-lfs clone https://huggingface.co/windwhinny/chilloutmix.git
 ```
+# Download our pretrained edlora
+```shell script=
+bash download_data.sh
+```
 
 # How to train and inference?
 * Training output will be saved in "./experiments/8EDLORA_<TOKEN_NAME>"
