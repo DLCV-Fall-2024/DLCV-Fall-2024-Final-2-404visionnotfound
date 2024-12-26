@@ -17,7 +17,7 @@ inputs:
   init_mask_path: ~       
   edlora_paths:
     - "inf/8EDLoRA_cat2/models/edlora_model-latest.pth"
-    - "inf/8EDLoRA_uglycorgi/models/edlora_model-latest.pth"
+    - "inf/8EDLoRA_dog6/models/edlora_model-latest.pth"
   load_edlora: True
   lora_alpha: 0.7
 
