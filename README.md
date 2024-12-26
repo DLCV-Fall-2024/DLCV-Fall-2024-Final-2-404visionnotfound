@@ -15,6 +15,7 @@ For more details, please click [this link](https://docs.google.com/presentation/
 ```bash
 pip install -r requirements.txt
 bash download_data.sh
+mkdir -p experiments/pretrained_models
 cd experiments/pretrained_models
 git-lfs clone https://huggingface.co/windwhinny/chilloutmix.git
 ```
